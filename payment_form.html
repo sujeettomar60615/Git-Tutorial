@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Payment Form</h1>
+      <p>Required Fields are Followed By * </p>
+      <p>( This payment form is created by Sujeet Singh Tomar with guidance of apni kaksha tutorials and code with harry )</p>
+      <h2>Contact Information</h2>
+      <p>Name: *  <input type="text" name="Name" required /></p>
+      <fieldset>
+        <legend>Gender</legend>
+        <p>Male: <input type="radio" name="Gender" id="Male" /></p>
+        <p>FeMale: <input type="radio" name="Gender" id="FeMale" /></p>
+        <p>Transgender: <input type="radio" name="Gender" id="Transgender"/> </p>
+        <p>None: <input type="radio" name="Gender" id="None" /></p>
+      </fieldset>
+   
+        <p>Address: * <textarea name="Address" id="Address" cols="60" rows="10" required></textarea> </p>
+        <p>Email: * <input type="email" name="Email" id="Email" required></p>
+        <p>Pincode: * <input type="number" name="Pincode" id="Pincode" required></p>
+        
+        <h2>Payment Information</h2>
+        <p>Card Type:
+            <select name="Card Type" id="Card Type">
+            <option value="">---Select a Card Type---</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Visa">Visa</option>
+        </select>
+        </p>
+        <p>Card Number * <input type="number" name="Card Number" id="Card Number" required></p>
+        <p>Expiration Date: * <input type="date" name="Exp Date" id="Exp Date" required></p>
+        <p>CVV * <input type="password" name="CVV" id="CVV" required></p>
+        <input type="submit" value="Pay Now">
+        <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>
+
